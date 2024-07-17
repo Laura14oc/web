@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+
+}
+
+body{
+	font-family: sans-serif;
+	background-color:#171717 ;
+}
+
+.head{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 63px;
+	background: #171717;
+	width: 100%;
+	z-index: 100;
+}
+
+.navbar {
+	display:flex;
+	margin-right: 10px;
+
+}
+
+.logo {
+	margin-left: 30px;
+}
+
+.logo a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+
+.navbar a {
+	display: block;
+	padding: 20px 20px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.navbar a:hover {
+	background: #e91e63;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60vh;
+	background: url(IMAGENES/dashboard2.jpg);
+	background-size:60%;
+}
+
+.title {
+	margin-bottom:40px;
+	font-size: 60px;
+	font-weight: 600;
+	color: #fff;
+	border-radius: 50%;
+}
+
+.inicio{
+	margin-bottom:40px;
+	font-size:18px;
+	padding: 0 50px;
+	background-color: #fff;
+	opacity: 0.5;
+	color: black;
+
+}
+
+
+p{
+	margin-bottom:40px;
+	font-size:18px;
+	color: #fff;
+	padding: 0 50px;
+
+}
+
+
+.content {
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.sau {
+
+	padding: 25px 0;
+	background: #303030;
+	color: #fff;
+	font-size: 20px;
+}
+
+
+.box-container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.box-container .box{
+	background: #171717;
+	text-align: center;
+	border-radius: 50%;
+	box-shadow: 0 16px 16px rgba(0, 0, 0, .3);
+	margin: 20px;
+}
+.DATOS CON SENTIDO{
+	background: url(IMAGENES/meeting.jpg) no-repeat center;
+	background-size: cover ;
+}
+
+.dashboard {
+	color: #e303030;
+	padding: 50px 0;
+}
